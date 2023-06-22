@@ -1,0 +1,6 @@
+#Python: Bir Cümle İçerisinde Aranan Kelime Veya İfadenin Var Olup Olmadığını Tespit Etmek
+#Online eğitimler için: https://www.excelsizeyeter.com/excelsizeyeter.com/udemy_giris.php adresine tıklayınız.
+def cümlede_varmı(aranan, cümle):
+    if aranan.lower().upper() in cümle.lower().upper():
+        print("Var")
+cümlede_varmı("selam","herkese selam")
